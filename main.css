@@ -55,3 +55,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+	*zoom: 1;
+}
