@@ -72,3 +72,20 @@ table {
 	clear: both;
 	*zoom: 1;
 }
+
+/* Meters */
+
+.meter {
+	background-color: #DFE0ED;
+	position: relative;
+	height: .5em;
+	width: 100px;
+}
+
+.meter > span {
+	background-color: #028cd5;
+	display: block;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
