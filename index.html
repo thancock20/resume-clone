@@ -9,19 +9,20 @@
 </head>
 
 <body>
+<div class="container">
   <header>
     <nav>
       <ul>
-        <li><a href="#">Hello</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Hello</a></li><!--
+        --><li class="current"><a href="#">Resume</a></li><!--
+        --><li><a href="#">Portfolio</a></li>
       </ul>
     </nav>
   </header>
 
   <section class="hero">
-    <h1>David Brown</h1>
-    <h2>Architect</h2>
+    <h1>John Doe</h1>
+    <h2>Designer</h2>
   </section>
 
   <section class="overview">
@@ -33,7 +34,7 @@
   </section>
 
   <section class="info">
-    <div>
+    <div class="col-1-3">
       <article class="personal">
         <h3>Personal</h3>
 
@@ -41,10 +42,10 @@
           <tbody>
             <tr>
               <th scope="row">Name</th>
-              <td>David Brown</td>
+              <td>John Doe</td>
             </tr>
             <tr>
-              <th scope="row">Birhday</th>
+              <th scope="row">Birthday</th>
               <td>31st Dec 1990 (26)</td>
             </tr>
             <tr>
@@ -119,14 +120,14 @@
           <figure>
             <div class="icon"><img src="https://icon.now.sh/nature/32/fff" alt="outdoors"></div>
             <figcaption>Outdoors</figcaption>
-          </figure>
+          </figure><!--
 
-          <figure>
+          --><figure>
             <div class="icon"><img src="https://icon.now.sh/flight_takeoff/32/fff" alt="traveling"></div>
             <figcaption>Traveling</figcaption>
-          </figure>
+          </figure><!--
 
-          <figure>
+          --><figure>
             <div class="icon"><img src="https://icon.now.sh/camera_alt/32/fff" alt="photography"></div>
             <figcaption>Photography</figcaption>
           </figure>
@@ -136,45 +137,51 @@
           <figure>
             <div class="icon"><img src="https://icon.now.sh/keyboard/32/fff" alt="writing"></div>
             <figcaption>Writing</figcaption>
-          </figure>
+          </figure><!--
 
-          <figure>
+          --><figure>
             <div class="icon"><img src="https://icon.now.sh/restaurant/32/fff" alt="socializing"></div>
             <figcaption>Socializing</figcaption>
-          </figure>
+          </figure><!--
 
-          <figure>
+          --><figure>
             <div class="icon"><img src="https://icon.now.sh/games/32/fff" alt="gaming"></div>
             <figcaption>Gaming</figcaption>
           </figure>
         </div>
       </article>
-    </div>
+    </div><!--
 
-    <div>
+    --><div class="col-2-3">
       <article class="work">
         <h3>Work</h3>
 
         <ul>
-          <li>
-            <span class="title">Design Director @ Big Design, New York</span>
+          <li class="clearfix">
+            <div class="details">
+              <div class="title">Design Director @ Big Design, New York</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo accusamus deleniti perspiciatis, beatae rem consequatur nesciunt aspernatur porro soluta deserunt.</p>
+            </div>
             <span class="year">2015</span>
-            <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo accusamus deleniti perspiciatis, beatae rem consequatur nesciunt aspernatur porro soluta deserunt.</p>
           </li>
-          <li>
-            <span class="title">Senior Designer @ Design Company, Brooklyn</span>
+          <li class="clearfix">
+            <div class="details">
+              <span class="title">Senior Designer @ Design Company, Brooklyn</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nesciunt praesentium atque aut nostrum libero architecto, ipsam non aperiam eaque.</p>
+            </div>
             <span class="year">2012</span>
-            <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nesciunt praesentium atque aut nostrum libero architecto, ipsam non aperiam eaque.</p>
           </li>
-          <li>
-            <span class="title">Designer @ Brand New, Paris</span>
+          <li class="clearfix">
+            <div class="details">
+              <span class="title">Designer @ Brand New, Paris</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed fuga exercitationem nulla, molestias excepturi harum ratione quisquam! Mollitia quibusdam, aut?</p>
+            </div>
             <span class="year">2008</span>
-            <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed fuga exercitationem nulla, molestias excepturi harum ratione quisquam! Mollitia quibusdam, aut?</p>
           </li>
         </ul>
       </article>
 
-      <article class="skills">
+      <article class="skills clearfix">
         <h3>Professional Skills</h3>
 
       <div class="progress-radial progress-100">
@@ -198,42 +205,51 @@
         <h3>Education</h3>
 
         <ul>
-          <li>
-            <span class="title">MA Graphics @ Royal College of Art, London</span>
+          <li class="clearfix">
+            <div class="details">
+              <span class="title">MA Graphics @ Royal College of Art, London</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, fugit consectetur maiores perspiciatis necessitatibus placeat quam possimus, vitae culpa laboriosam!</p>
+            </div>
             <span class="year">2006</span>
-            <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, fugit consectetur maiores perspiciatis necessitatibus placeat quam possimus, vitae culpa laboriosam!</p>
           </li>
-          <li>
-            <span class="title">BA(hons) Graphics @ Central Saint Martins, London</span>
+          <li class="clearfix">
+            <div class="details">
+              <span class="title">BA(hons) Graphics @ Central Saint Martins, London</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ipsum quam quos vitae molestiae consectetur placeat possimus in provident perspiciatis.</p>
+            </div>
             <span class="year">2003</span>
-            <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ipsum quam quos vitae molestiae consectetur placeat possimus in provident perspiciatis.</p>
           </li>
         </ul>
       </article>
     </div>
   </section>
 
-  <section class="social">
+  <section class="social clearfix">
     <figure>
       <div class="icon"><img src="https://icon.now.sh/behance/32/fff" alt="behance"></div>
-      <figcaption>www.behance.com/davidbrown</figcaption>
+      <figcaption>www.behance.com/johndoe</figcaption>
     </figure>
     <figure>
       <div class="icon"><img src="https://icon.now.sh/linkedin/32/fff" alt="linkedin"></div>
-      <figcaption>www.linkedIn/davidbrown</figcaption>
+      <figcaption>www.linkedIn/johndoe</figcaption>
     </figure>
     <figure>
       <div class="icon"><img src="https://icon.now.sh/twitter/32/fff" alt="twitter"></div>
-      <figcaption>www.twitter.com/davidbrown</figcaption>
+      <figcaption>www.twitter.com/johndoe</figcaption>
     </figure>
   </section>
 
-  <footer>
-    <span>flat 2, 10 Broadway, New York, NY 12345</span>
-    <span>Call: +1 (212) 123-4567</span>
-    <span>Email: davidbrown@gmail.com</span>
-    <span>www.davidbrowndesigns.com</span>
+  <footer class="clearfix">
+    <div>
+      flat 2, 10 Broadway, New York, NY 12345
+      Call: +1 (212) 123-4567
+      Email: johndoe@gmail.com
+    </div>
+    <div>
+      www.johndoedesigns.com
+    </div>
   </footer>
+</div>
 </body>
 
 </html>
