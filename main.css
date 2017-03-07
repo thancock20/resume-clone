@@ -132,19 +132,10 @@ article:first-of-type {
 
 /* Clearfix */
 
-.clearfix:before,
-.clearfix:after {
+.group:after {
 	content: "";
 	display: table;
-}
-
-.clearfix:after {
 	clear: both;
-}
-
-.clearfix {
-	clear: both;
-	*zoom: 1;
 }
 
 /* Icons */
