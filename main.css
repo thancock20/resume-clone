@@ -56,6 +56,14 @@ table {
 	border-spacing: 0;
 }
 
+/* Custom Styles */
+
+body {
+	background: white;
+	color: #5C676D;
+	font: 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* Clearfix */
 
 .clearfix:before,
